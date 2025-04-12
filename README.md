@@ -20,7 +20,7 @@
     APPEND fieldcatalog TO fieldcatalog.
     CLEAR  fieldcatalog.
 
-lzero : 앞에 0을 붙여줌으로써 자리수 맞추기
+- lzero : 앞에 0을 붙여줌으로써 자리수 맞추기
 
 
 *fltime 코드 수정
@@ -31,6 +31,8 @@ lzero : 앞에 0을 붙여줌으로써 자리수 맞추기
      fieldcatalog-datatype = 'NUM'. #---> fltime 시간이 아니라 숫자로 나오도록 수정
      APPEND fieldcatalog TO fieldcatalog.
      CLEAR  fieldcatalog.
+
+- datatype : num은 숫자로 바꿔주는 데이터 타입
      
 *DISTANCE 코드 수정
 
@@ -40,6 +42,8 @@ lzero : 앞에 0을 붙여줌으로써 자리수 맞추기
        fieldcatalog-decimals_out = 0. #---> distance 소수점이 출력 안되도록 수정
        APPEND fieldcatalog TO fieldcatalog.
        CLEAR  fieldcatalog.
+
+- decimals_out : 실수를 정수로 표현해준다.
 
 ## 수정 후 모습
 
