@@ -1,4 +1,4 @@
-## 과제2
+## sap 과제2
 
 - SPFLI 테이블에서 CONNID FLTIME DISTANCE 수정
 - CONNID : 숫자 0이 앞에 나오도록 수정
