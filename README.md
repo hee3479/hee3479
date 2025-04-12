@@ -1,4 +1,4 @@
-## Hi there 👋
+## 과제2
 
 <!--
 **hee3479/hee3479** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
