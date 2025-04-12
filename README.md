@@ -13,11 +13,11 @@
 
 *connid 코드 수정
 
- `fieldcatalog-fieldname   = 'CONNID'.`
-  `fieldcatalog-seltext_m   = 'Flight Connection Numbe'.`
-  fieldcatalog-col_pos     = 1.
-   fieldcatalog-lzero = 'X'. #---> connid의 숫자 0이 앞에 나오도록 수정
-  APPEND fieldcatalog TO fieldcatalog.
-  CLEAR  fieldcatalog.
+    fieldcatalog-fieldname   = 'CONNID'.
+    fieldcatalog-seltext_m   = 'Flight Connection Numbe'.
+    fieldcatalog-col_pos     = 1.
+    fieldcatalog-lzero = 'X'. #---> connid의 숫자 0이 앞에 나오도록 수정
+    APPEND fieldcatalog TO fieldcatalog.
+    CLEAR  fieldcatalog.
 
 
