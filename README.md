@@ -19,7 +19,10 @@
     fieldcatalog-lzero = 'X'. #---> connid의 숫자 0이 앞에 나오도록 수정
     APPEND fieldcatalog TO fieldcatalog.
     CLEAR  fieldcatalog.
-    
+
+lzero : 앞에 0을 붙여줌으로써 자리수 맞추기
+
+
 *fltime 코드 수정
 
      fieldcatalog-fieldname   = 'FLTIME'.
@@ -34,7 +37,7 @@
        fieldcatalog-fieldname   = 'DISTANCE'.
        fieldcatalog-seltext_m   = 'Distance'.
        fieldcatalog-col_pos     = 5.
-       fieldcatalog-decimals_out = 0.
+       fieldcatalog-decimals_out = 0. #---> distance 소수점이 출력 안되도록 수정
        APPEND fieldcatalog TO fieldcatalog.
        CLEAR  fieldcatalog.
 
