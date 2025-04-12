@@ -7,5 +7,5 @@
 - 힌트: 필드 카탈로그에서 필드 옵션 활용
 
 ## 수정 전 모습
-
+![Image](https://github.com/user-attachments/assets/f2f7268d-c7a4-4a7a-a288-3002346a3746)
 
