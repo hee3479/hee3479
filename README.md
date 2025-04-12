@@ -9,7 +9,7 @@
 ## 수정 전 모습
 ![Image](https://github.com/user-attachments/assets/f2f7268d-c7a4-4a7a-a288-3002346a3746)
 
-## 수정 코드
+## 수정 코드 (정확하게는 코드 삽입)
 
 *connid 코드 수정
 
@@ -19,5 +19,23 @@
     fieldcatalog-lzero = 'X'. #---> connid의 숫자 0이 앞에 나오도록 수정
     APPEND fieldcatalog TO fieldcatalog.
     CLEAR  fieldcatalog.
+    
+*fltime 코드 수정
 
+     fieldcatalog-fieldname   = 'FLTIME'.
+     fieldcatalog-seltext_m   = 'Flight time'.
+     fieldcatalog-col_pos     = 2.
+     fieldcatalog-datatype = 'NUM'. #---> fltime 시간이 아니라 숫자로 나오도록 수정
+     APPEND fieldcatalog TO fieldcatalog.
+     CLEAR  fieldcatalog.
+     
+*DISTANCE 코드 수정
 
+       fieldcatalog-fieldname   = 'DISTANCE'.
+       fieldcatalog-seltext_m   = 'Distance'.
+       fieldcatalog-col_pos     = 5.
+       fieldcatalog-decimals_out = 0.
+       APPEND fieldcatalog TO fieldcatalog.
+       CLEAR  fieldcatalog.
+
+## 수정 후 모습
