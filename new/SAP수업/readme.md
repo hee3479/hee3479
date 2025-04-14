@@ -40,3 +40,25 @@
 - LD_COLOR가 두줄이나오는건 문자열 추출하는 구문때문에 겹쳐서 나왔을것
 - LD_COLOR+0(1) 이거랑 LD_COLOR(1) 이거랑 같아서 이게 나온것 (0자리 먹고 들어가서 1자리 추출)
   <https://zcoding1.tistory.com/10>
+
+### 구조
+
+- DATA: fieldcatalog TYPE slis_t_fieldcat_alv __WITH HEADER LINE__ (테이블이 있고, 헤더에 행도 있다)
+- DATA: it_scarr TYPE STANDARD TABLE OF t_scarr, it_scarr TYPE t_scarr. (이거랑 똑같다. 같은 구조를 행과 테이블로 동시에 같은 이름으로 만든것)
+- 따로하면 원래 중복이니까 안되는데 with header line은 가능.
+- 문법이 이렇게하면 간소화되서 자유도를 높여놓음.
+- 딥구조는 구조안에 구조가 하나 더 있다는 것
+- 대시가 들어가면 구조안에 필드 하나다
+- fieldcatalog(행)-fieldname(필드)   = 'MANDT'. (이런 구조는 행에 있는 필드에 MANDT를 넣는것)
+- 숫자필드는 초기값이 0이다.
+
+### 필드카탈로그 의미
+
+- fieldcatalog-fieldname   = 'MANDT'.   필드이름
+- fieldcatalog-seltext_m   = 'Client'.      컬럼제목
+- fieldcatalog-col_pos     = 0.              몇번째 순서로 출력
+- fieldcatalog-outputlen   = 10.            넓이를 10사이즈/편집 10자리만 들어가게
+- APPEND fieldcatalog(행) TO fieldcatalog(테이블).   APPEND A TO B 테이블을 쌓아라
+- CLEAR  fieldcatalog.  (행) 잔재가 남아있을까봐 행을 비운다.
+- 클리어 필드카탈로그 부분을 클릭 후 
+  
