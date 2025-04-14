@@ -29,6 +29,8 @@
      fieldcatalog-seltext_m   = 'Flight time'.
      fieldcatalog-col_pos     = 2.
      fieldcatalog-datatype = 'NUM'. #---> fltime 시간이 아니라 숫자로 나오도록 수정
+     ## datatype char numc 해도 숫자로 나오지만 =>> 합계가 안나온다. 문제가 있으니 숫자필드는 왠만하면 숫자로 선언해라
+     ---> 수정 : fieldcatalog-datatype = 'int4'.
      APPEND fieldcatalog TO fieldcatalog.
      CLEAR  fieldcatalog.
 
