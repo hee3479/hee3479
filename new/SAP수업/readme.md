@@ -60,5 +60,12 @@
 - fieldcatalog-outputlen   = 10.            넓이를 10사이즈/편집 10자리만 들어가게
 - APPEND fieldcatalog(행) TO fieldcatalog(테이블).   APPEND A TO B 테이블을 쌓아라
 - CLEAR  fieldcatalog.  (행) 잔재가 남아있을까봐 행을 비운다.
-- 클리어 필드카탈로그 부분을 클릭 후 
+
+### 클리어와 어펜드 하는 법
+
+![Image](https://github.com/user-attachments/assets/0f5eaa3b-d17a-4a28-a0b3-aa2dfcb46350)
+
+ - 1번을 클릭, 2번 클릭, 3번 클릭하면 있던 데이터 자료가 클리어 된다.
+ - 4번 클릭, 2번 클릭, 3번 클릭하면 데이터가 기재 되고 2번 아래 필드 카탈로그에 삽입된다.
+
   
