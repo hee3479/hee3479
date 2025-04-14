@@ -50,3 +50,10 @@
 ## 수정 후 모습
 
 ![Image](https://github.com/user-attachments/assets/f22566e3-d1ae-4a4c-8f36-d1c9efb89e23)
+
+*****
+
+## alv란?
+
+- ALV는 ABAP List Viewer의 약자로 Report에서 데이터를 조회하거나 조회된 데이터를 가공하는 목적으로 실무에서 많이 사용을 합니다.
+또 데이터를 가공하여 정렬하거나 데이터의 합계를 구하거나 local 파일로 저장 등의 다양한 기능을 코딩 없이 사용할 수 있도록 SAP에서 제공한 기능입니다.
