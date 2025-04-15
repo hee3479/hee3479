@@ -60,6 +60,7 @@
 - fieldcatalog-outputlen   = 10.            넓이를 10사이즈/편집 10자리만 들어가게
 - APPEND fieldcatalog(행) TO fieldcatalog(테이블).   APPEND A TO B 테이블을 쌓아라
 - CLEAR  fieldcatalog.  (행) 잔재가 남아있을까봐 행을 비운다.
+- 헤드라인 구조에서는 [] 표시를 해줘야한다.
 
 ### 클리어와 어펜드 하는 법
 
